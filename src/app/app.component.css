@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 960px;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black;
+    max-width: 225px;
+    padding: 30px;
+}
+/* 
+.doc-info {
+    display: flex;
+    align-items: flex-start;
+} */
+
+.delete {
+    display: flex;
+    float: right;
+}
+
+.info {
+    padding-top: 50px;
+}
+
+.bars {
+    padding-top: 50px;
+}
